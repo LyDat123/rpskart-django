@@ -61,3 +61,6 @@ $(document).ready(function() {
 setTimeout(function(){
     $('#message').fadeOut('slow')
   }, 4000)
+
+const passwordInput = document.getElementById('passwordInput');
+const passwordToggle = document.getElementById('passwordToggle');
